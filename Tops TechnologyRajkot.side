@@ -1,0 +1,156 @@
+{
+  "id": "4c53b71f-a11d-459c-be2b-bc565c885c6d",
+  "version": "2.0",
+  "name": "Tops Technology(Rajkot)",
+  "url": "https://careercenter.tops-int.com",
+  "tests": [{
+    "id": "6ef66dca-7278-4a56-90cb-cbb451102f66",
+    "name": "Tops(Ap)",
+    "commands": [{
+      "id": "29890cb6-f68a-47a4-9409-2f44d03737e4",
+      "comment": "",
+      "command": "open",
+      "target": "/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6412f5b1-b9df-4776-8724-7a1580203b68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f855def-9646-4195-a0c6-d235ffa25fbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#profileDropdown > span:nth-child(3)",
+      "targets": [
+        ["css=#profileDropdown > span:nth-child(3)", "css:finder"],
+        ["xpath=//a[@id='profileDropdown']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d890f28-a012-4683-ac15-8a099a6b10c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=li:nth-child(4) > .text-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='main-header']/div/div/div[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://careercenter.tops-int.com/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de89e470-9fa4-4afd-b1aa-c4f1a09ff681",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04550cd1-2be3-4831-975f-4ee6894eda67",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=user_name", "name"],
+        ["css=.my-3:nth-child(2) > #mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "9104782633"
+    }, {
+      "id": "abfb682e-11ee-4081-b820-8c43d622e28f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-4",
+      "targets": [
+        ["css=.col-lg-4", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0edfcbaa-3471-4554-acd8-9e67a2d4370b",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7182edae-ef30-43ae-bedb-2b4f61b78ca2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=user_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9104782633"
+    }, {
+      "id": "bf9dd4d3-10b8-4df9-9a4e-eed96dbc6e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-3 > .btn",
+      "targets": [
+        ["css=.mt-3 > .btn", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9926ceee-3e06-4f40-a541-f29f90619475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.course-li-div:nth-child(2) > .tab-list-item",
+      "targets": [
+        ["css=.course-li-div:nth-child(2) > .tab-list-item", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/ul/div/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd57c16c-9a54-46a4-9a53-0bf7285d6654",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "94c54789-6b2f-49ed-a6d8-f2b62ecc8dfa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ef66dca-7278-4a56-90cb-cbb451102f66"]
+  }],
+  "urls": ["https://careercenter.tops-int.com/"],
+  "plugins": []
+}
